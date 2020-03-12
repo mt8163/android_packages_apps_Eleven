@@ -24,7 +24,7 @@
 
     <LinearLayout
         android:id="@+id/grp_container_view"
-        android:background="?android:colorBackground"
+        android:background="@color/white"
         android:layout_centerInParent="true"
         android:layout_width="match_parent"
         android:layout_height="@dimen/preview_layout_height"

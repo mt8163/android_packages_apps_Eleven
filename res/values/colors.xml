@@ -16,15 +16,15 @@
 -->
 <resources>
     <!-- Material -->
-    <color name="primary">#333333</color>
-    <color name="primary_dark">#212121</color>
-    <color name="primary_light">#424242</color>
-    <color name="accent">#E91E63</color>
+    <color name="primary">#ffffff</color>
+    <color name="primary_dark">#ffffff</color>
+    <color name="primary_light">#ffffff</color>
+    <color name="accent">#1a73e8</color>
 
     <!-- Main colors -->
     <color name="black">#333333</color>
-    <color name="semitransparent_black">#a0333333</color>
-    <color name="white">#fafafa</color>
+    <color name="semitransparent_black">#ffffff</color>
+    <color name="white">#ffffff</color>
     <color name="grey">#9e9e9e</color>
     <color name="grey_dark">#616161</color>
     <color name="purple">#9C27B0</color>
@@ -46,12 +46,12 @@
 
     <!-- Standard Text Color -->
     <color name="default_text_color">@color/black</color>
-    <color name="default_text_color_light">@color/white</color>
+    <color name="default_text_color_light">@color/black</color>
 
     <!-- Cards -->
-    <color name="cards_bg_color">#fefefe</color>
-    <color name="cardOne">@color/black</color>
-    <color name="cardTwo">#424242</color>
+    <color name="cards_bg_color">#ffffff</color>
+    <color name="cardOne">#000000</color>
+    <color name="cardTwo">#000000</color>
 
     <!-- Transparent colors -->
     <color name="transparent">#00000000</color>
@@ -63,9 +63,9 @@
 
     <!-- Color for the action bar -->
     <color name="header_action_bar_color">@color/primary</color>
-    <color name="header_action_bar_text_color">#f5f5f5</color>
-    <color name="header_action_bar_text_color_active">#ffffff</color>
-    <color name="bottom_action_bar_text_color">@color/default_text_color_light</color>
+    <color name="header_action_bar_text_color">@color/black</color>
+    <color name="header_action_bar_text_color_active">@color/accent</color>
+    <color name="bottom_action_bar_text_color">@color/white</color>
 
     <!-- Background color used on some page headers -->
     <color name="page_header_background">@color/white</color>
@@ -88,28 +88,28 @@
     <color name="grid_list_item_text_color">#b3212121</color>
 
     <!-- Top title page colors -->
-    <color name="tab_ripple_color">@color/white</color>
-    <color name="tab_accent_color">@color/white</color>
-    <color name="tab_selected_underline_color">@color/white</color>
+    <color name="tab_ripple_color">@color/accent</color>
+    <color name="tab_accent_color">@color/accent</color>
+    <color name="tab_selected_underline_color">@color/accent</color>
 
     <!-- Search Colors -->
-    <color name="search_hint_color">@color/white</color>
+    <color name="search_hint_color">@color/accent</color>
 
     <!-- Color for the text on the audio player -->
     <color name="audio_player_text_color">@color/default_text_color_light</color>
 
     <!-- Color for the Progress bar -->
-    <color name="circular_progress_bar_background">#40ffffff</color>
-    <color name="circular_progress_bar">@color/white</color>
+    <color name="circular_progress_bar_background">@color/grey</color>
+    <color name="circular_progress_bar">@color/accent</color>
 
     <!-- search no results text color -->
-    <color name="no_results">@color/black</color>
-    <color name="no_results_light">@color/white</color>
+    <color name="no_results">@color/red</color>
+    <color name="no_results_light">@color/red</color>
 
     <color name="now_playing_divider">@color/transparent</color>
 
     <!-- App widget colors -->
-    <color name="widget_text">@color/white</color>
+    <color name="widget_text">@color/accent</color>
 
     <!-- Background Lyrics Color -->
     <color name="lyrics_background_color">#b2212121</color>
@@ -145,7 +145,7 @@
     <color name="visualizer_fill_color">#bffafafa</color>
 
     <!-- Separated and exposed values for themes -->
-    <color name="widget_background_color">@color/black</color>
+    <color name="widget_background_color">@color/white</color>
     <color name="list_base_container_background_color">@color/white</color>
     <color name="activity_album_detail_background_color">@color/background_color</color>
     <color name="activity_artist_detail_background_color">@color/background_color</color>
@@ -155,17 +155,17 @@
     <color name="album_detail_song_count_and_year_text_color">@color/default_text_color</color>
     <color name="album_detail_genre_text_color">@color/default_text_color</color>
     <color name="album_detail_duration_text_color">@color/default_text_color</color>
-    <color name="app_msg_text_color">?android:textColorPrimaryInverse</color>
+    <color name="app_msg_text_color">@color/accent</color>
     <color name="artist_detail_album_title_text_color">@color/cardOne</color>
     <color name="artist_detail_album_year_text_color">@color/cardTwo</color>
     <color name="artist_detail_header_albums_label_text_color">@color/list_item_header_text_color</color>
     <color name="artist_detail_header_songs_label_text_color">@color/list_item_header_text_color</color>
     <color name="grid_items_normal_line_one">@color/cardOne</color>
     <color name="grid_items_normal_line_two">@color/cardTwo</color>
-    <color name="position_number_color">@color/white</color>
-    <color name="audio_player_lyrics_text_color">@color/white</color>
-    <color name="audio_player_current_time_color">@color/white</color>
-    <color name="audio_player_total_time_color">@color/white</color>
-    <color name="number_of_songs_text_color">@color/white</color>
-    <color name="duration_text_color">@color/white</color>
+    <color name="position_number_color">@color/accent</color>
+    <color name="audio_player_lyrics_text_color">@color/accent</color>
+    <color name="audio_player_current_time_color">@color/accent</color>
+    <color name="audio_player_total_time_color">@color/accent</color>
+    <color name="number_of_songs_text_color">@color/accent</color>
+    <color name="duration_text_color">@color/accent</color>
 </resources>

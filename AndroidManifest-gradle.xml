@@ -118,6 +118,7 @@
         <!-- Used to set options -->
         <activity
             android:name="org.lineageos.eleven.ui.activities.SettingsActivity"
+            android:theme="@style/MTSettings"
             android:label="@string/menu_settings"/>
         <!-- Audio Preview -->
         <activity

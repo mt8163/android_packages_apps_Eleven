@@ -16,7 +16,7 @@
 -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- Main Material -->
-    <style name="Eleven.Theme" parent="@android:style/Theme.Material.Light.DarkActionBar">
+    <style name="Eleven.Theme" parent="@android:style/Theme.Material.Light">
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:popupMenuStyle">@style/PopupMenu</item>
         <item name="android:dropDownListViewStyle">@style/DropDownListView</item>
@@ -28,12 +28,14 @@
         <item name="android:colorPrimary">@color/primary</item>
         <item name="android:colorPrimaryDark">@color/primary_dark</item>
         <item name="android:colorAccent">@color/accent</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
         <item name="android:windowContentTransitions">true</item>
         <item name="android:windowAllowEnterTransitionOverlap">false</item>
         <item name="android:windowAllowReturnTransitionOverlap">false</item>
     </style>
 
-    <style name="ActionBarWidgetTheme" parent="@android:style/Theme.Material">
+    <style name="ActionBarWidgetTheme" parent="@android:style/Theme.Material.Light">
         <!-- This is the color of the search text hint in the action bar -->
         <item name="android:textColorHint">@color/search_hint_color</item>
         <item name="android:popupMenuStyle">@style/PopupMenu</item>
@@ -192,7 +194,10 @@
         <item name="android:textSize">@dimen/tab_text_size</item>
     </style>
 
-    <style name="ToolBarTheme" parent="android:style/ThemeOverlay.Material.Dark.ActionBar" />
+    <style name="ToolBarTheme" parent="android:style/ThemeOverlay.Material.ActionBar" />
 
     <style name="ToolBarPopupTheme" parent="android:style/Theme.Material.Light" />
+
+    <style name="MTSettings" parent="@style/Eleven.Theme"/>
+
 </resources>
